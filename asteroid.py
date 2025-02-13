@@ -27,6 +27,3 @@ class Asteroid(CircleShape):
     for velocity in [new_velocity_pos, new_velocity_neg]:
       asteroid = Asteroid(self.position.x, self.position.y, new_radius)
       asteroid.velocity = velocity * 1.2
-
-
-
